@@ -11,7 +11,7 @@ h1 {
     color: #ffff3f;
     margin-top: 100px;
     margin-bottom: 200px;
-    font-family: desirable brust texture, sans-serif;
+    font-family: MyCustomFont, sans-serif;
     font-size: 80px;
     text-shadow:  
     2px 2px 0 #000;
@@ -102,7 +102,7 @@ main {
 }
 .gallery {
     position: relative;
-    font-family: desirable brust texture, sans-serif;
+    font-family: MyCustomFont, sans-serif;
     text-align: left;
     margin-top: 80px;
     margin-left: 60px;
@@ -232,16 +232,13 @@ h2 {
   --shadow: 0 10px 30px rgba(0,0,0,.25);
   --transition-speed: 0.4s;
 }
-
 * {
   box-sizing:border-box;
   transition: all var(--transition-speed) ease;
 }
-
 html {
   scroll-behavior:smooth;
 }
-
 body {
   margin:0; font-family:Times New Roman, serif;
   font-style: italic;
@@ -249,19 +246,14 @@ body {
               radial-gradient( transparent 60%), var(--bg);
   color:var(--text);
 }
-
 a {
   color:inherit;
   text-decoration:none;
 }
-
-
 .container {
   width:min(1100px, 92vw);
   margin-inline:auto;
 }
-
-
 /* Mockup */
 .mockup {
   background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
@@ -269,20 +261,17 @@ a {
   border-radius:var(--radius);
   padding:14px; box-shadow:var(--shadow);
 }
-
 .mockup__inner {
   aspect-ratio:4/3;
   border-radius:12px;
   overflow:hidden;
   background:#0b0d12 center/cover no-repeat;
 }
-
 .mockup__inner:hover,
 .mockup__inner:focus {
   transform: scale(1.05);
   outline: none;
 }
-
 section {
   padding-bottom: 80px;
 }
@@ -292,31 +281,24 @@ section {
   justify-content:space-between;
   margin-bottom:18px;
 }
-
 h2 {
   font-size:clamp(24px, 3vw, 34px);
   color: #ecf450;
 }
-
 .sub {
   color:var(--muted);
 }
-
 .sub2 {
   text-align:center;
 }
-
 /* Grid */
 .grid {
   display:grid;
   gap:25px;
 }
-
 .grid--1 {
   grid-template-columns:repeat(2,1fr);
 }
-
-
 /* Card and Badge */
 .card {
   background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
@@ -325,23 +307,19 @@ h2 {
   overflow:hidden;
   box-shadow:var(--shadow);
 }
-
 .card__media {
   aspect-ratio:16/9;
   background-size:cover;
   background-position:center;
 }
-
 .card__media2 {
   aspect-ratio:3/4;
   background-size:cover;
   background-position:center;
 }
-
 .card__body {
   padding:16px;
 }
-
 .badge {
   display:inline-block;
   font-size:12px;
@@ -351,7 +329,6 @@ h2 {
   border-radius:999px;
   font-weight:700;
 }
-
 .card:hover {
   transform:translateY(-10px);
   box-shadow:0 15px 40px rgba(0,0,0,.35);
