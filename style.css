@@ -214,6 +214,16 @@ h2 {
     1px 1px 0 #000;
     line-height: 30px;
 }
+.gairische {
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-style: italic;
+    color: #ffff3f;
+    text-shadow:  
+    1px 1px 0 #000;
+    line-height: 30px;
+}
 .grid-section {
     text-align: center;
     margin-left: 60px;
