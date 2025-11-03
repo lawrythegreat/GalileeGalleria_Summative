@@ -354,12 +354,11 @@ footer {
     text-align: center;
     padding-top: 300px;
     background-image: url('https://ik.imagekit.io/dicosantiago/Portfolio/footer%20bg.png?updatedAt=1762084997565');
-    position: absolute;
     width: 103%;
     height: 500px;
     background-size: cover;
     background-position: center;
-    background-color: #004e92;
+    background-color: #004e92, #004e92;
     color: black;
     min-height: 180px;
 }
